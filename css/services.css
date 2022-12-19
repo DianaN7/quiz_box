@@ -1,0 +1,166 @@
+.top-line__header {
+  padding-top: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.top-line{
+  min-height: 331px;
+  background: url(../img/back3.png) center top no-repeat;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  background-color: #17191C;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 17px;
+}
+
+.top-line__container{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-title{
+  font-size: 60px;
+  line-height: 1;
+  font-weight: bold;
+  padding-top: 70px;
+  margin-bottom: 86px;
+}
+
+.breadcrumbs__list{
+  display: flex;
+  align-items: center;
+  
+}
+
+.breadcrumbs__item{
+  display: flex;
+  align-items: center;
+  padding-left: 2px;
+ 
+}
+.breadcrumbs__item:first-child{
+  padding-left: 0px;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.breadcrumbs__item::after{
+  content:"/";
+  color: #9A9A9A;
+  padding-left: 2px;
+  
+}
+
+.breadcrumbs__item:last-child::after{
+  display: none;
+}
+
+.breadcrumbs__link{
+  color: #9A9A9A;
+  font-size: 11px;
+}
+
+.page-content{
+  background: #fff;
+  color: #303030;
+  padding: 59px 0;
+}
+
+.services{
+  margin-bottom: 5px;
+}
+
+
+.service{
+  display: flex;
+  padding: 24px 0px;
+  text-decoration: none;
+}
+
+.service__img{
+  width: 39%;
+  margin-right: 5%;
+}
+  
+.service__img-elem2{
+  background: #000000;
+  padding: 55px 16px;
+}
+  
+.service__content{
+  flex: 1;
+}
+
+.service__title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 22px;
+  color: #000000;;
+}
+  
+.service__desc{
+  line-height: 1.7;
+  margin-bottom: 28px;
+  font-size: 12px;
+}
+
+.service__btn{
+  margin-bottom: 1px;
+  border: 1px solid #8F00FF;
+  border-radius: 5px;
+}
+
+.inner-section{
+  background: #fff;
+  color: #000000;
+  padding: 90px;
+}
+  
+.inner-section__title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 44px;
+}
+  
+.partners{
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+  
+.partners__link{
+  text-decoration: none;
+  display: flex;
+  width: 228px;
+  height: 86px;
+  align-items: center;
+  justify-content: center;
+}
+  
+.partners__link:hover{
+  filter: grayscale(10);
+}
+  
+.partners__item{
+  margin-left: 5px;
+}
+  
+.partners__item:nth-child(4n +1){
+  margin-left: 0;
+}
+  
+.inner-footer__container{
+  padding: 41px 0;
+}
+  
+.inner-footer{
+  margin-top: auto;
+}
