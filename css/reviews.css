@@ -145,10 +145,11 @@
   padding: 22px 21px;
   font-size: 18px;
   color: #1A1B1E;
+  border: 1px solid transparent;
 }
 
 .form__input:hover{
-  border: 1px solid #8F00FF;
+  border: 1px solid#8F00FF;
 
 }
 

@@ -7,7 +7,7 @@
   height: 100%;
   align-items: center;
   justify-content: center;
-  background: url(../img/main.png) center bottom / cover no-repeat , linear-gradient(180deg, #17191C 0%, rgba(23, 25, 28, 0) 100%);;
+  background: url(../img/main.png) center bottom / cover no-repeat , linear-gradient(180deg, #17191C 0%, rgba(23, 25, 28, 0) 100%);
   background-blend-mode: luminosity;
   background-color:#17191C;
   box-shadow: 0px 120px 62px -1px #17191C inset;
